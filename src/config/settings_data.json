@@ -1,0 +1,482 @@
+{
+  "current": {
+    "color_account_bg": "#000000",
+    "color_account_text": "#ffffff",
+    "color_header_bg": "#ffffff",
+    "color_header_text": "#2e3438",
+    "color_body_bg": "#ffffff",
+    "color_body_text": "#2e3438",
+    "color_primary": "#2e3438",
+    "color_splash": "#2e3438",
+    "color_border": "#cccccc",
+    "homepage_background_light": "#f7f7f7",
+    "homepage_background_dark": "#2e3438",
+    "product_background_color": "#ffffff",
+    "product_slideshow_arrows": "#cccccc",
+    "color_footer_bg": "#f2f2f2",
+    "color_footer_text": "#989493",
+    "color_footer_social_link": "#2e3438",
+    "type_header_font": "oswald_n4",
+    "type_heading_size": 100,
+    "font_title_capitalize": true,
+    "type_accent_font": "montserrat_n5",
+    "type_accent_size": 100,
+    "type_base_font": "sabon_next_n4",
+    "type_body_size": 110,
+    "cart_type": "modal",
+    "cart_show_on_click": true,
+    "cart_vendor_enable": false,
+    "cart_notes_enable": false,
+    "cart_quantity": true,
+    "cart_show_additional_buttons": false,
+    "cart_continue_browsing": "shopify://collections/all",
+    "collection_text_alignment": "text-center",
+    "product_grid_style": "hover",
+    "image_hover_enable": true,
+    "image_autoheight_enable": true,
+    "tag_sellout": false,
+    "tag_sale": true,
+    "tag_new": false,
+    "tag_new_limit": 14,
+    "social_twitter_link": "",
+    "social_facebook_link": "https://www.facebook.com/lavamx",
+    "social_instagram_link": "https://www.instagram.com",
+    "social_pinterest_link": "",
+    "social_google_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "social_tumblr_link": "",
+    "social_fancy_link": "",
+    "product_social_enable": true,
+    "share_enable_facebook": true,
+    "share_enable_pinterest": false,
+    "share_enable_google": false,
+    "share_enable_twitter": true,
+    "twittercard_handle": "",
+    "social_home_image": "",
+    "favicon": "",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#1391a4",
+    "checkout_button_color": "#1391a4",
+    "checkout_error_color": "#de7878",
+    "checkout_use_header_image": false,
+    "checkout_logo": "",
+    "checkout_use_body_background_image": false,
+    "checkout_use_sidebar_background_image": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify://shop_images/logo.png",
+          "logo_max_limit": 250,
+          "main_menu_linklist": "main-menu",
+          "height": "header--medium",
+          "meganav_image": "shopify://shop_images/home-menu.png",
+          "meganav_link": "",
+          "header_message": "ENVÍO GRATIS EN COMPRAS MAYORES A $1,000",
+          "header_message_url": "",
+          "header_enable_account": true,
+          "header_enable_search": true,
+          "search_only_products": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "linklist": {
+            "type": "linklist",
+            "settings": {
+              "linklist": "main-menu"
+            }
+          },
+          "text": {
+            "type": "text",
+            "settings": {
+              "title": "IMPRESIÓN EN LÍNEA",
+              "text": "<p>Ofrecemos servicios de impresi&oacute;n de cuadernos profesionales personalizados, agenda semanal personalizada, libretas personalizada, blog de notas, impresi&oacute;n de tarjetas de presentaci&oacute;n, impresi&oacute;n de hojas membretadas, folders, postales, posters, impresi&oacute;n de volantes e impresi&oacute;n de d&iacute;pticos.</p>"
+            }
+          },
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "richtext": "<p>Te podr&aacute;s enterar de ofertas, nuevos lanzamientos y actualizaciones.</p>"
+            }
+          }
+        },
+        "block_order": [
+          "linklist",
+          "text",
+          "newsletter"
+        ],
+        "settings": {
+          "footer_image": "",
+          "footer_secondary_linklist": "footer",
+          "footer_payment_enable": true,
+          "footer_social_enable": true
+        }
+      },
+      "product": {
+        "type": "product",
+        "settings": {
+          "product_breadcrumbs": true,
+          "show_price_above": true,
+          "form_position": "below",
+          "show_quantity": true,
+          "enable_payment_button": false,
+          "product_show_vendor": false,
+          "zoom_enable": false,
+          "related_products_enable": false,
+          "product_reviews_enable": false,
+          "info_page": "",
+          "tabs_position": "below"
+        }
+      },
+      "collection": {
+        "type": "collection",
+        "blocks": {
+          "1551133056809": {
+            "type": "tag_group",
+            "settings": {
+              "title": "Filter by size",
+              "group_tags": "Small, Medium, Large"
+            }
+          }
+        },
+        "block_order": [
+          "1551133056809"
+        ],
+        "settings": {
+          "grid_setting_large": 4,
+          "grid_setting_medium": 2,
+          "grid_setting_small": 2,
+          "collection_sorting": false,
+          "align_text": "text-center",
+          "show_title": true,
+          "show_title_below": false,
+          "show_description": true,
+          "show_description_below": false,
+          "description_font_size": "rte rte--large",
+          "show_image": true,
+          "image_height": "use_screen_one_third",
+          "overlay_opacity": 0,
+          "text_color": "homepage--dark",
+          "parallax": true,
+          "hide_sidebar": false,
+          "collection_custom_nav_list": "",
+          "collection_standard_nav": false,
+          "collection_tag_nav": false
+        }
+      },
+      "blog": {
+        "type": "blog",
+        "settings": {
+          "layout": "list",
+          "blog_show_meta": true,
+          "image": "",
+          "overlay_opacity": 0,
+          "text_color": "homepage--light",
+          "parallax": true,
+          "tags": false
+        }
+      },
+      "article": {
+        "type": "article",
+        "settings": {
+          "blog_show_meta": false,
+          "tags": false,
+          "social": true,
+          "image_height": "use_screen_one_third",
+          "parallax": true,
+          "sidebar_tags": true,
+          "recent": true
+        }
+      },
+      "index-product": {
+        "type": "index-product",
+        "settings": {
+          "title": "Featured product",
+          "home_product": "",
+          "homepage_product_color": "homepage--white",
+          "show_quantity": true,
+          "enable_payment_button": true,
+          "product_show_vendor": false,
+          "zoom_enable": false,
+          "info_page": "",
+          "tabs_position": "below"
+        }
+      },
+      "index-collection": {
+        "type": "index-collection",
+        "settings": {
+          "title": "Productos Destacados",
+          "collection": "frontpage",
+          "grid": 3,
+          "rows": 1,
+          "homepage_collection_color": "homepage--white",
+          "show_view_all": false
+        }
+      },
+      "index-instagram": {
+        "type": "index-instagram",
+        "settings": {
+          "title": "Instagram",
+          "homepage_instagram_color": "homepage--white",
+          "token": "",
+          "instagram_photo_count": 4,
+          "instagram_grid_setting_large": 4,
+          "instagram_grid_setting_medium": 3,
+          "instagram_grid_setting_small": 3
+        }
+      },
+      "1550792672445": {
+        "type": "index-richtext",
+        "settings": {
+          "title": "Nosotros",
+          "home_page_richtext": "<p>Somos una empresa de impresi&oacute;n en l&iacute;nea localizada en Guadalajara, Jalisco con m&aacute;s de 8 a&ntilde;os de experiencia en impresion de cuadernos personalizados, adapteci&oacute;n de tu logo a libretas y agendas, realizamos impresi&oacute;n de tarjetas de presentaci&oacute;n, hojas membretadas, folders, posters entre otros servicios de impresi&oacute;n. Realizamos impresiones de exelente calidad con entregas puntuales y adaptandonos a las necesidades de tu empresa.</p>",
+          "homepage_page_color": "homepage--white"
+        }
+      },
+      "1550792702168": {
+        "type": "index-blog",
+        "settings": {
+          "title": "Blog",
+          "homepage_blog": "news",
+          "homepage_blog_count": 2,
+          "homepage_blog_color": "homepage--white",
+          "height": 300
+        }
+      },
+      "page-images": {
+        "type": "page-images",
+        "blocks": {
+          "1550796648551": {
+            "type": "page_image",
+            "settings": {
+              "block_page": "nosotros",
+              "image": "shopify://shop_images/nosotros-banner.png"
+            }
+          },
+          "1550797009126": {
+            "type": "page_image",
+            "settings": {
+              "block_page": "contactanos",
+              "image": "shopify://shop_images/Contacto-banner.png"
+            }
+          }
+        },
+        "block_order": [
+          "1550796648551",
+          "1550797009126"
+        ],
+        "settings": {
+          "parallax": true,
+          "image_height": "use_screen_one_third",
+          "overlay_opacity": 0,
+          "text_color": "homepage--white"
+        }
+      },
+      "1550796187271": {
+        "type": "index-slideshow",
+        "blocks": {
+          "1550796187271-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/home-banner.jpg",
+              "overlay_opacity": 0,
+              "title": "",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--white",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--large btn--clear btn--square uppercase",
+              "button_image": ""
+            }
+          }
+        },
+        "block_order": [
+          "1550796187271-0"
+        ],
+        "settings": {
+          "autoplay": false,
+          "autoplay_speed": 8,
+          "height": "use_screen_two_thirds"
+        }
+      },
+      "1550796447901": {
+        "type": "index-banner-image",
+        "settings": {
+          "image": "shopify://shop_images/home-banner-2.jpg",
+          "height": "use_screen_two_thirds",
+          "overlay_opacity": 15,
+          "parallax": false,
+          "title": "",
+          "description": "",
+          "text_align": "text-center",
+          "color": "homepage--white",
+          "link_text": "PAPELERÍA CORPORATIVA",
+          "link": "",
+          "button_style": "btn btn--large btn--outline btn--square uppercase",
+          "button_image": ""
+        }
+      },
+      "list-collections": {
+        "type": "list-collections",
+        "blocks": {
+          "1551200815196": {
+            "type": "collection",
+            "settings": {
+              "collection": "frontpage"
+            }
+          },
+          "1551200840250": {
+            "type": "collection",
+            "settings": {
+              "collection": "papeleria"
+            }
+          },
+          "1551200852614": {
+            "type": "collection",
+            "settings": {
+              "collection": "promociones"
+            }
+          }
+        },
+        "block_order": [
+          "1551200815196",
+          "1551200840250",
+          "1551200852614"
+        ],
+        "settings": {
+          "display_type": "selected",
+          "grid": 4,
+          "rows": 1
+        }
+      }
+    },
+    "content_for_index": [
+      "1550796187271",
+      "1550792672445",
+      "index-collection",
+      "1550796447901",
+      "1550792702168",
+      "index-instagram"
+    ]
+  },
+  "presets": {
+    "Light": {
+      "color_account_bg": "#f3f3f3",
+      "color_account_text": "#656565",
+      "color_header_bg": "#ffffff",
+      "color_header_text": "#656565",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#656565",
+      "color_primary": "#585e71",
+      "color_splash": "#f4a482",
+      "color_border": "#f7f7f7",
+      "homepage_background_light": "#f7f7f7",
+      "homepage_background_dark": "#2e3438",
+      "product_background_color": "#FFFFFF",
+      "product_slideshow_arrows": "#cccccc",
+      "color_footer_bg": "#ffffff",
+      "color_footer_text": "#656565",
+      "color_footer_social_link": "#a9a9a9",
+      "type_header_font": "megrim_n4",
+      "font_title_capitalize": true,
+      "type_accent_font": "questrial_n4",
+      "type_base_font": "harmonia_sans_n4",
+      "type_body_size": 100,
+      "collection_text_alignment": "text-center",
+      "product_grid_style": "hover",
+      "checkout_use_body_background_image": false,
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#E37648",
+      "checkout_button_color": "#f4a482",
+      "checkout_error_color": "#585e71"
+    },
+    "Bright": {
+      "color_account_bg": "#000000",
+      "color_account_text": "#ffffff",
+      "color_header_bg": "#ffffff",
+      "color_header_text": "#333333",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#000000",
+      "color_primary": "#333333",
+      "color_splash": "#1391a4",
+      "color_border": "#cccccc",
+      "homepage_background_light": "#f7f7f7",
+      "homepage_background_dark": "#2e3438",
+      "product_background_color": "#f6f6f6",
+      "product_slideshow_arrows": "#cccccc",
+      "color_footer_bg": "#f2f2f2",
+      "color_footer_text": "#333333",
+      "color_footer_social_link": "#2e3438",
+      "type_header_font": "oswald_n4",
+      "type_heading_size": 100,
+      "font_title_capitalize": true,
+      "type_accent_font": "montserrat_n5",
+      "type_accent_size": 100,
+      "type_base_font": "sabon_next_n4",
+      "type_body_size": 110,
+      "collection_text_alignment": "text-center",
+      "product_grid_style": "hover",
+      "checkout_use_body_background_image": false,
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#1391a4",
+      "checkout_button_color": "#1391a4",
+      "checkout_error_color": "#DE7878"
+    },
+    "Dark": {
+      "color_account_bg": "#212121",
+      "color_account_text": "#d4d4d4",
+      "color_header_bg": "#353535",
+      "color_header_text": "#ffffff",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#3c3c3c",
+      "color_primary": "#000000",
+      "color_splash": "#e73131",
+      "color_border": "#cfcfcf",
+      "homepage_background_light": "#f7f7f7",
+      "homepage_background_dark": "#585858",
+      "product_background_color": "#ffffff",
+      "product_slideshow_arrows": "#cfcfcf",
+      "color_footer_bg": "#383838",
+      "color_footer_text": "#e3e3e3",
+      "color_footer_social_link": "#767676",
+      "type_header_font": "itc_caslon_no_224_n7",
+      "font_title_capitalize": false,
+      "type_accent_font": "avenir_next_n4",
+      "type_base_font": "avenir_next_n4",
+      "type_body_size": 100,
+      "collection_text_alignment": "text-center",
+      "product_grid_style": "under",
+      "checkout_use_body_background_image": false,
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Open Sans",
+      "checkout_body_font": "Open Sans",
+      "checkout_accent_color": "#8b1e1e",
+      "checkout_button_color": "#e73131",
+      "checkout_error_color": "#ff862b"
+    }
+  }
+}
