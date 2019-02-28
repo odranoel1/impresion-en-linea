@@ -125,6 +125,11 @@ $max: max-width;
 /*================ SETTINGS ================*/
 /*================ Color Variables ================*/
 
+// My color variables
+$color-black: #000;
+$color-gray: #9f9f9f;
+
+
 // Main Colors
 $colorPrimary: {{ settings.color_primary }};
 $colorSplash: {{ settings.color_splash }};
@@ -1122,6 +1127,9 @@ body:not(.template-index){
     .h1, .h2, .h3, .h4 {
       margin-bottom: 0;
     }
+    a {
+      color: $color-black;
+    }
   }
   .section-header__right {
     display: table-cell;
@@ -1616,8 +1624,8 @@ input.btn--secondary {
   }
 }
 .btn--large {
-  padding: 12px 20px;
-  font-size: em(18px * $bodyFontAdjust);
+  padding: 12px 60px;
+  font-size: em(18px * $bodyFontAdjust) !important;
   .uppercase, &.uppercase {
     font-size: em(18px * $accentFontAdjust);
   }
@@ -1672,10 +1680,11 @@ input.btn--secondary {
 }
 .btn--outline{
   background-color: #FFFFFF;
-  border: 1px solid $colorHomeDark;
+  border: 1px solid #56c0e3;
   box-shadow: 0 0 0 8px #FFFFFF;
-  color: $colorHomeDark;
+  color: $color-black;
   margin: 8px;
+  font-weight: bold;
   &:hover, &:focus, &:active{
     color: $colorSplash;
     background-color: #FFFFFF;
@@ -2597,11 +2606,12 @@ $infoBarPadding: 5px;
 .header-message {
   line-height: $infoBarHeight;
   margin-bottom: 0;
+  font-weight: bold;
 }
 .site-header {
   position: relative;
   background-color: $colorNav;
-  border-bottom: 1px solid $colorNavBorder;
+  border-bottom: 3px solid $colorNavBorder;
 }
 .logo-wrapper{
   max-width: 80%;
@@ -4459,6 +4469,7 @@ a .home__subtitle{
   text-align: center;
   font-size: 1.2em * $bodyFontAdjust;
   margin-bottom: 30px;
+  color: $color-gray;
 }
 
 /*================ Newsletter ================*/
@@ -4822,7 +4833,8 @@ Collection grid section
   color: $colorFooterText;
   text-align: left;
   hr {
-    border-top: 1px solid rgba($colorFooterText, 0.15);
+    // border-top: 1px solid rgba($colorFooterText, 0.15);
+    border-top: 1px solid rgba($color-black, 0.3);
   }
   a{
     color: $colorFooterText;
@@ -4855,7 +4867,9 @@ Collection grid section
 }
 
 .footer__title{
+  color: $color-black;
   font-weight: $accentFontWeightBold;
+  font-size: 1.2em;
 }
 
 .footer-secondary,
@@ -5179,7 +5193,8 @@ label.quatity-selector{
 }
 
 .collection-list-item:not(first-child){
-  border-bottom: 1px solid $colorBorder;
+  // border-bottom: 1px solid $colorBorder;
+  border-bottom: 1px solid #010101;
   padding-top: $gutter*2;
 }
 .product-list-item{
@@ -6889,3 +6904,69 @@ button.mfp-close {
 
 
 /*============ Add any custom styles below this line ==================*/
+$color-primary : #f6ac44;
+
+%hr-style {
+  &::after {
+    content: "";
+    margin: auto;
+    width: 40px;
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.hr-default {
+  @extend %hr-style;
+  &::after{
+    background-color: #21bef5;
+    background: linear-gradient(to right, #21bef5 0%,#20c7a3 38%,#2afaa0 100%);
+  }
+}
+
+.hr-primary {
+  @extend %hr-style;
+  &::after {
+    background-color: #f9ca46;
+    background: linear-gradient(to right, #f9ca46 41%,#f1b149 100%);
+  }
+}
+
+.hr-secondary {
+  @extend %hr-style;
+  &::after {
+    background-color: #eb168e;
+    background: linear-gradient(to right, #eb168e 0%,#c12760 53%);
+  }
+}
+
+.btn-primary {
+  background-color: $color-primary;
+}
+// .figcaption {
+//   @extend %hr-style;
+//   background-color: #f9ca46;
+//   background: linear-gradient(to right, #f9ca46 41%,#f1b149 100%);
+// }
+.title-default {
+  color: $color-black;
+  font-weight: $accentFontWeightBold;
+  padding-bottom: $gutter/2;
+  margin-bottom: $gutter;
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.powered_by {
+  color: rgba($color-black,0.6);
+}

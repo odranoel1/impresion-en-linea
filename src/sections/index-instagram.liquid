@@ -35,7 +35,10 @@
 
 <div class="homepage-instagram {{ section.settings.homepage_instagram_color }}" data-section-id="{{ section.id }}" data-section-type="instagram">
   {% unless section.settings.title == '' %}
-    <h4 class="home__subtitle">{{ section.settings.title | escape }}</h4>
+    <h4 class="title-default hr-default text-center">
+      {{ section.settings.title | escape}}
+    </h4>
+    <!-- <h4 class="home__subtitle">{{ section.settings.title | escape }}</h4> -->
   {% endunless %}
   {% if section.settings.token == '' %}
     <div class="grid-uniform grid--full">

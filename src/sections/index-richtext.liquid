@@ -5,7 +5,10 @@
     <div class="grid">
       <div class="grid__item large--five-sixths push--large--one-twelfth">
         {% if section.settings.title != '' %}
-          <h4 class="home__subtitle">{{ section.settings.title | escape }}</h4>
+          <h4 class="title-default hr-default text-center">
+            {{ section.settings.title | escape }}
+          </h4>
+          <!-- <h4 class="home__subtitle">{{ section.settings.title | escape }}</h4> -->
         {% endif %}
         {% if section.settings.home_page_richtext != blank %}
           <div class="homepage-page__content rte">

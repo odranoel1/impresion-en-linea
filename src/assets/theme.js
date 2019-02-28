@@ -216,7 +216,7 @@ slate.a11y = {
  */
 
 slate.cart = {
-  
+
   /**
    * Browser cookies are required to use the cart. This function checks if
    * cookies are enabled in the browser.
@@ -2203,4 +2203,22 @@ $(document).ready(function() {
   if (slate.cart.cookiesEnabled()) {
     document.documentElement.className = document.documentElement.className.replace('supports-no-cookies', 'supports-cookies');
   }
+});
+
+//Add custom JS
+
+$(document).ready(function() {
+  // Menu Fixed
+  $(window).scroll(function(){
+    var heightMenu = $('#shopify-section-header').outerHeight(true);
+
+    if($(this).scrollTop() > 0){
+      $('#shopify-section-header').addClass('fixed');
+      $('.main-content').css('margin-top', (heightMenu) + 'px');
+    } else {
+      $('#shopify-section-header').removeClass('fixed');
+      $('.main-content').css('margin-top', '0');
+    }
+  });
+
 });

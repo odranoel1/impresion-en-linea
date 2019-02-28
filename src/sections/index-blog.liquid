@@ -21,7 +21,10 @@
 <div class="homepage-blog {{ section.settings.homepage_blog_color }} section-{{ section.id }}">
   <div class="wrapper">
       {% unless section.settings.title == '' %}
-        <h4 class="home__subtitle">{{ section.settings.title | escape }}</h4>
+        <h4 class="title-default hr-secondary text-center">
+          {{ section.settings.title | escape}}
+        </h4>
+        <!-- <h4 class="home__subtitle">{{ section.settings.title | escape }}</h4> -->
       {% endunless %}
       <div class="grid-uniform">
         {% unless blog == blank or blog.empty? %}
