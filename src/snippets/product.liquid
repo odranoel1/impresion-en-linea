@@ -133,27 +133,28 @@
           {% capture shareTitle %}{{ product.title | url_param_escape }}{% endcapture %}
           <div class="share text-center" data-permalink="{{ link }}">
             {% if settings.share_enable_facebook %}
+              <span class="share__text text-center">{{ 'general.share.facebook' | t }}</span>
               <a target="_blank" href="//www.facebook.com/sharer.php?u={{ link }}" class="share__link">
-                <span class="icon icon-facebook" aria-hidden="true"></span>
-                <span class="share__text">{{ 'general.share.facebook' | t }}</span>
+                <span class="icon social-icon icon-facebook" aria-hidden="true"></span>
+                <!-- <span class="share__text">{{ 'general.share.facebook' | t }}</span> -->
               </a>
             {% endif %}
             {% if settings.share_enable_twitter %}
               <a target="_blank" href="//twitter.com/share?url={{ link }}&amp;text={{ shareTitle }}" class="share__link">
-                <span class="icon icon-twitter" aria-hidden="true"></span>
-                <span class="share__text">{{ 'general.share.twitter' | t }}</span>
+                <span class="icon social-icon icon-twitter" aria-hidden="true"></span>
+                <!-- <span class="share__text">{{ 'general.share.twitter' | t }}</span> -->
               </a>
             {% endif %}
             {% if settings.share_enable_pinterest %}
               <a target="_blank" href="http://pinterest.com/pin/create/button/?url={{ link }}&amp;media={{ product.featured_image | product_img_url: '1024x1024' | prepend: 'http:' }}&amp;description={{ shareTitle }}" class="share__link">
-                <span class="icon icon-pinterest" aria-hidden="true"></span>
-                <span class="share__text">{{ 'general.share.pinterest' | t }}</span>
+                <span class="icon social-icon icon-pinterest" aria-hidden="true"></span>
+                <!-- <span class="share__text">{{ 'general.share.pinterest' | t }}</span> -->
               </a>
             {% endif %}
             {% if settings.share_enable_google %}
               <a target="_blank" href="//plus.google.com/share?url={{ link }}" class="share__link">
-                <span class="icon icon-google_plus" aria-hidden="true"></span>
-                <span class="share__text">{{ 'general.share.google' | t }}</span>
+                <span class="icon social-icon icon-google_plus" aria-hidden="true"></span>
+                <!-- <span class="share__text">{{ 'general.share.google' | t }}</span> -->
               </a>
             {% endif %}
           </div>

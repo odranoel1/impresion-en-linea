@@ -73,16 +73,16 @@
     </div>
 
     <div class="grid footer-secondary-wrapper">
-      <ul class="footer-secondary grid__item inline-list">
+      <!-- <ul class="footer-secondary grid__item inline-list">
           <li><a href="{{ shop.secure_url }}" itemprop="url">&copy; {{ shop.name }} {{ 'now' | date: "%Y" }}</a></li>
         {% for link in linklists[section.settings.footer_secondary_linklist].links %}
           <li><a href="{{ link.url }}">{{ link.title }}</a></li>
         {% endfor %}
-        <!-- Remove the following two lines to delete Shopify and Pipeline credit -->
+        <! Remove the following two lines to delete Shopify and Pipeline credit
           <li>{{ powered_by_link }}</li>
           <li><a href="https://groupthought.com">{{ 'layout.footer.credit' | t }}</a></li>
-        <!-- stop deleting here :) -->
-      </ul>
+        <! stop deleting here :)
+      </ul> -->
 
       {% if section.settings.footer_payment_enable %}
         {% unless shop.enabled_payment_types == empty %}
@@ -175,7 +175,11 @@
       {% endif %}
       <ul class="powered_by">
         <li>
-          <span>Desarrollado por: <a href="https://www.lava.mx/">Lava Studio</a></span>
+          <span>Desarrollado por:
+            <a href="https://www.lava.mx/">
+              Lava Studio
+            </a>
+          </span>
         </li>
       </ul>
     </div>

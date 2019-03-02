@@ -110,7 +110,7 @@
       <div class="content--centered">
         <div class="text-center preventOverflowContent">
           {%- if section.settings.show_title and section.settings.show_title_below == false  -%}
-          <h1 class="title--flex {{ section.settings.align_text }}">{{ collection.title }}</h1>
+          <h1 class="title--flex title-banner {{ section.settings.align_text }}">{{ collection.title }}</h1>
           {%- endif -%}
           {% if collection.description.size > 0 and section.settings.show_description and section.settings.show_description_below == false %}
           <div class="{{ section.settings.description_font_size }} {{ section.settings.align_text }}">{{ collection.description }}</div>{% endif %}
