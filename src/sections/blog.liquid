@@ -80,13 +80,14 @@
               <div class="blog__article">
                 <header{% if article.image %} class="blog__article-header-image" style="background-image: url('{{ article.image | img_url: '1024x1024' }}');"{% endif %}>
                   <h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
-                  {% if section.settings.blog_show_meta %}
+                  <!-- {% if section.settings.blog_show_meta %}
                     {% capture author %}<strong>{{ article.author }}</strong>{% endcapture %}
                     {% capture date %}<time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">{{ article.published_at | date: format: 'month_day_year' }}</time>{% endcapture %}
                     <p class="blog__article--light">
                       {{ 'blogs.article.author_on_date_html' | t: author: author, date: date }}
                     </p>
-                  {% endif %}
+                  {% endif %} -->
+                  <h4 class="blog_published">{{ article.published_at | date: format: 'month_day_year' }}</h4>
                 </header>
                 <div class="rte blog__article__content">
                   {{ article.excerpt_or_content }}

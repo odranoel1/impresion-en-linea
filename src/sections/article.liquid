@@ -65,12 +65,12 @@
         <div class="blog__article{% if article.image %} blog__article--over-image{% endif %}">
           <header>
             <h1 class="h2" itemprop="headline">{{ article.title }}</h1>
-            {% if section.settings.blog_show_meta %}
+            <!-- {% if section.settings.blog_show_meta %}
               {% capture author %}<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span class="strong" itemprop="name">{{ article.author }}</span></span>
               {% endcapture %}
               {% capture date %}<time itemprop="datePublished" datetime="{{ article.published_at | date: '%Y-%m-%d' }}">{{ article.published_at | date: format: 'month_day_year' }}</time>{% endcapture %}
               <p class="blog__article--light">{{ 'blogs.article.author_on_date_html' | t: author: author, date: date }}</p>
-            {% endif %}
+            {% endif %} -->
           </header>
 
           <div class="blog__article__content rte" itemprop="articleBody">
